@@ -1,15 +1,27 @@
 ## Quickstart ##
 
-Set the SLACK_WEBHOOK and SLACK_CHANNEL environment variables.
+* Set the **SLACK_WEBHOOK** and **SLACK_CHANNEL** environment variables.
 
-Test it out
+```bash
+$ export SLACK_WEBHOOK='https://hooks.slack.com/services/<API>'
+$ export SLACK_CHANNEL='@__your__channel'
+```
 
-./slack.sh hi everyone!
+* Test it out
 
-Copy it as a command
+```bash
+$ ./slack.sh hi everyone
+```
 
+* Copy it as a command
+
+```bash
 sudo cp slack.sh /usr/bin/slack
+```
 
-Test it as a command
+* Test it as a command at any path
 
-slack A message from *bash*!
+```bash
+$ cd ~
+$ slack A message from *bash*!
+```
