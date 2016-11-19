@@ -25,3 +25,8 @@ sudo cp slack.sh /usr/bin/slack
 $ cd ~
 $ slack A message from *bash*!
 ```
+
+## Persisting environment variables ##
+
+* Copy the export variables to your */.bash_profile* or */.bashrc* settings file.
+* Relogin
